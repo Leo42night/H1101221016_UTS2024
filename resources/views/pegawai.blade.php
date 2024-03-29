@@ -14,7 +14,7 @@
     <div class="min-height-300 bg-primary position-absolute w-100"></div>
     <x-sidenav active='pegawai' />
     <main class="main-content position-relative border-radius-lg ">
-        <x-navbar page='Pegawai'/>
+        <x-navbar page='Pegawai' />
 
         <div class="container-fluid py-4 w-100">
             <div class="col-xl-12">
@@ -41,23 +41,27 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card-body pt-0 p-3 text-start">
-                                <h5 class="my-2">Gaji</h5>
-                                <div class="input-group">
-                                    <span class="input-group-text">$</span>
-                                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-                                    <span class="input-group-text">.00</span>
-                                </div>
+                            <div class="row">
+                                <div class="col-md-6 card-body pt-0 p-3 text-start">
+                                    <h5 class="my-2">Gaji</h5>
+                                    <div class="input-group">
+                                        <span class="input-group-text">$</span>
+                                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                                        <span class="input-group-text">.00</span>
+                                    </div>
 
-                            </div>
-                            <div class="card-body pt-0 p-3 text-start">
-                                <h5 class="my-2">Pendidikan</h5>
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Type here...">
+                                </div>
+                                <div class="col-md-6 card-body pt-0 p-3 text-start">
+                                    <h5 class="my-2">Pendidikan</h5>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Type here...">
+                                    </div>
                                 </div>
                             </div>
                             <div class="card-body pt-0 p-3 text-start">
-                                <label for="formFile" class="form-label"><h5>Gambar Profile</h5></label>
+                                <label for="formFile" class="form-label">
+                                    <h5>Gambar Profile</h5>
+                                </label>
                                 <input class="form-control" type="file" id="formFile">
                             </div>
                             <div class="card-body pt-0 p-3 my-2 text-end">
