@@ -18,7 +18,7 @@
         </a>
     </li>
     <li class="nav-item">
-        <a class="nav-link " href="/pegawai">
+        <a class="nav-link {{ ($active == 'pegawai') ? 'active' : ' ' }}" href="/pegawai">
         <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
             <i class="ni ni-calendar-grid-58 text-warning text-sm opacity-10"></i>
         </div>
@@ -26,7 +26,7 @@
         </a>
     </li>
     <li class="nav-item">
-        <a class="nav-link " href="/jabatan">
+        <a class="nav-link {{ ($active == 'jabatan') ? 'active' : ' ' }}" href="/jabatan">
         <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
             <i class="ni ni-credit-card text-success text-sm opacity-10"></i>
         </div>
@@ -34,19 +34,11 @@
         </a>
     </li>
     <li class="nav-item">
-        <a class="nav-link " href="/pendidikan">
+        <a class="nav-link {{ ($active == 'pendidikan') ? 'active' : ' ' }}" href="/pendidikan">
         <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
             <i class="ni ni-app text-info text-sm opacity-10"></i>
         </div>
         <span class="nav-link-text ms-1">Pendidikan</span>
-        </a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link " href="./pages/rtl.html">
-        <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-            <i class="ni ni-world-2 text-danger text-sm opacity-10"></i>
-        </div>
-        <span class="nav-link-text ms-1">RTL</span>
         </a>
     </li>
     </ul>
