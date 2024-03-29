@@ -6,17 +6,21 @@ use Illuminate\View\Component;
 
 class navbar extends Component
 {   
-    
-
+    /**
+     * The active page.
+     * 
+     * @var string
+     */
+    public $page;
     /**
      * Create a new component instance.
-     *
+     * @param  string  $active
      * @return void
      */
 
-    public function __construct()
+    public function __construct($page = '')
     {
-        //
+        $this->page = $page;
     }
 
     /**

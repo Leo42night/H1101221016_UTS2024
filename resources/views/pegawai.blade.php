@@ -14,7 +14,7 @@
     <div class="min-height-300 bg-primary position-absolute w-100"></div>
     <x-sidenav active='pegawai' />
     <main class="main-content position-relative border-radius-lg ">
-        <x-navbar />
+        <x-navbar page='Pegawai'/>
 
         <div class="container-fluid py-4 w-100">
             <div class="col-xl-12">

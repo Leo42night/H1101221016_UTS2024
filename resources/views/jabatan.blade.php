@@ -7,51 +7,50 @@
   <title>
     Home
   </title>
-  <x-link/>
+  <x-link />
 </head>
 
 <body class="g-sidenav-show   bg-gray-100">
   <div class="min-height-300 bg-primary position-absolute w-100"></div>
-  <x-sidenav active='jabatan'/>
+  <x-sidenav active='jabatan' />
   <main class="main-content position-relative border-radius-lg ">
-    <x-navbar/>
-   
-    <div class="container-fluid py-4">
-    <div class="col-xl-6">
-        <div class="row">
-        <div class="col-md-6">
-            <div class="card">
-            <div class="card-header mx-4 p-3 text-center">
+    <x-navbar page='Jabatan' />
+
+    <div class="container-fluid py-4 w-100">
+      <div class="col-xl-12">
+        <div class="row justify-content-md-center">
+          <div class="col-md-6">
+            <div class="card px-4">
+              <div class="card-header mx-4 p-3 text-center">
                 <div class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
-                <i class="fas fa-landmark opacity-10"></i>
+                  <i class="fas fa-landmark opacity-10"></i>
                 </div>
-            </div>
-            <div class="card-body pt-0 p-3 text-center">
-                <h6 class="text-center mb-0">Salary</h6>
-                <span class="text-xs">Belong Interactive</span>
-                <hr class="horizontal dark my-3">
-                <h5 class="mb-0">+$2000</h5>
-            </div>
-            </div>
-        </div>
-        <div class="col-md-6 mt-md-0 mt-4">
-            <div class="card">
-            <div class="card-header mx-4 p-3 text-center">
-                <div class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
-                <i class="fab fa-paypal opacity-10"></i>
+                <h1 class="text-center mb-0">Form Jabatan</h1>
+              </div>
+              <form>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="mb-3">
+                      <label for="jabatanInput" class="form-label">Nama Jabatan</label>
+                      <input type="text" class="form-control" id="jabatanInput" placeholder="Masukkan nama jabatan">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="mb-3">
+                      <label for="gajiInput" class="form-label">Gaji</label>
+                      <input type="number" class="form-control" id="gajiInput" placeholder="Masukkan gaji">
+                    </div>
+                  </div>
                 </div>
+                <div class="text-end">
+                  <button type="submit" class="btn btn-primary"><i class="fas fa-check"></i>&nbsp;&nbsp;Simpan</button>
+                </div>
+              </form>
             </div>
-            <div class="card-body pt-0 p-3 text-center">
-                <h6 class="text-center mb-0">Paypal</h6>
-                <span class="text-xs">Freelance Payment</span>
-                <hr class="horizontal dark my-3">
-                <h5 class="mb-0">$455.00</h5>
-            </div>
-            </div>
+          </div>
         </div>
-        </div>
+      </div>
     </div>
-    </div>  
   </main>
   <div class="fixed-plugin">
     <a class="fixed-plugin-button text-dark position-fixed px-3 py-2">
@@ -70,7 +69,7 @@
       </div>
     </div>
   </div>
-  <x-script/>
+  <x-script />
 </body>
 
 </html>

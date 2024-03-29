@@ -14,7 +14,7 @@
   <div class="min-height-300 bg-primary position-absolute w-100"></div>
   <x-sidenav active="home" />
   <main class="main-content position-relative border-radius-lg ">
-    <x-navbar />
+    <x-navbar page='Home' />
    
     <div class="container-fluid py-4">
     <div class="row">

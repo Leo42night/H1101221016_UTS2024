@@ -7,51 +7,51 @@
   <title>
     Home
   </title>
-  <x-link/>
+  <x-link />
 </head>
 
 <body class="g-sidenav-show   bg-gray-100">
   <div class="min-height-300 bg-primary position-absolute w-100"></div>
-  <x-sidenav active='pendidikan'/>
+  <x-sidenav active='pendidikan' />
   <main class="main-content position-relative border-radius-lg ">
-    <x-navbar/>
-   
+    <x-navbar page='Pendidikan' />
+
     <div class="container-fluid py-4">
-    <div class="col-xl-6">
+      <div class="col-xl-6">
         <div class="row">
-        <div class="col-md-6">
+          <div class="col-md-6">
             <div class="card">
-            <div class="card-header mx-4 p-3 text-center">
+              <div class="card-header mx-4 p-3 text-center">
                 <div class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
-                <i class="fas fa-landmark opacity-10"></i>
+                  <i class="fas fa-landmark opacity-10"></i>
                 </div>
-            </div>
-            <div class="card-body pt-0 p-3 text-center">
+              </div>
+              <div class="card-body pt-0 p-3 text-center">
                 <h6 class="text-center mb-0">Salary</h6>
                 <span class="text-xs">Belong Interactive</span>
                 <hr class="horizontal dark my-3">
                 <h5 class="mb-0">+$2000</h5>
+              </div>
             </div>
-            </div>
-        </div>
-        <div class="col-md-6 mt-md-0 mt-4">
+          </div>
+          <div class="col-md-6 mt-md-0 mt-4">
             <div class="card">
-            <div class="card-header mx-4 p-3 text-center">
+              <div class="card-header mx-4 p-3 text-center">
                 <div class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
-                <i class="fab fa-paypal opacity-10"></i>
+                  <i class="fab fa-paypal opacity-10"></i>
                 </div>
-            </div>
-            <div class="card-body pt-0 p-3 text-center">
+              </div>
+              <div class="card-body pt-0 p-3 text-center">
                 <h6 class="text-center mb-0">Paypal</h6>
                 <span class="text-xs">Freelance Payment</span>
                 <hr class="horizontal dark my-3">
                 <h5 class="mb-0">$455.00</h5>
+              </div>
             </div>
-            </div>
+          </div>
         </div>
-        </div>
+      </div>
     </div>
-    </div>  
   </main>
   <div class="fixed-plugin">
     <a class="fixed-plugin-button text-dark position-fixed px-3 py-2">
@@ -70,7 +70,7 @@
       </div>
     </div>
   </div>
-  <x-script/>
+  <x-script />
 </body>
 
 </html>
