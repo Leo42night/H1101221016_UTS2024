@@ -31,6 +31,6 @@ Route::get('/jabatan', function () {
 });
 
 Route::get('/pendidikan', function () {
-    return view('pendididikan');
+    return view('pendidikan');
 });
 
