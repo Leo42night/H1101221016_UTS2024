@@ -37,7 +37,7 @@
                   </div>
                   <div class="col-md-6">
                     <div class="mb-3">
-                      <label for="gajiInput" class="form-label">Gaji</label>
+                      <label for="gajiInput" class="form-label">Deskrpisi Jabatan</label>
                       <input type="number" class="form-control" id="gajiInput" placeholder="Masukkan gaji">
                     </div>
                   </div>

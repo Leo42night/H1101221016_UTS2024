@@ -20,23 +20,25 @@
             <div class="col-xl-12">
                 <div class="row justify-content-md-center">
                     <div class="col-md-6">
-                        <div class="card">
+                        <div class="card px-3">
                             <div class="card-header mx-4 p-3 text-center">
                                 <div class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
                                     <i class="fas fa-landmark opacity-10"></i>
                                 </div>
                                 <h6 class="text-center mb-0">Form Data Pegawai</h6>
                             </div>
-                            <div class="card-body pt-0 p-3 text-start">
-                                <h5 class="my-2">Nama</h5>
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Masukkan Nama...">
+                            <div class="row">
+                                <div class="col-md-6 card-body pt-0 p-3 text-start">
+                                    <h5 class="my-2">Nama</h5>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Masukkan Nama...">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="card-body pt-0 p-3 text-start">
-                                <h5 class="my-2">Jabatan</h5>
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Masukkan Jabatan...">
+                                <div class="col-md-6 card-body pt-0 p-3 text-start">
+                                    <h5 class="my-2">Jabatan</h5>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Masukkan Jabatan...">
+                                    </div>
                                 </div>
                             </div>
                             <div class="card-body pt-0 p-3 text-start">
