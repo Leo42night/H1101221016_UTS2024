@@ -28,19 +28,19 @@
                                 <h6 class="text-center mb-0">Form Data Pegawai</h6>
                             </div>
                             <div class="card-body pt-0 p-3 text-start">
-                                <h5 class="my-2">Nama: </h5>
+                                <h5 class="my-2">Nama</h5>
                                 <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Masukkan Nama...">
                                 </div>
                             </div>
                             <div class="card-body pt-0 p-3 text-start">
-                                <h5 class="my-2">Jabatan: </h5>
+                                <h5 class="my-2">Jabatan</h5>
                                 <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Masukkan Jabatan...">
                                 </div>
                             </div>
                             <div class="card-body pt-0 p-3 text-start">
-                                <h5 class="my-2">Gaji: </h5>
+                                <h5 class="my-2">Gaji</h5>
                                 <div class="input-group">
                                     <span class="input-group-text">$</span>
                                     <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
@@ -49,13 +49,13 @@
 
                             </div>
                             <div class="card-body pt-0 p-3 text-start">
-                                <h5 class="my-2">Pendidikan: </h5>
+                                <h5 class="my-2">Pendidikan</h5>
                                 <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Type here...">
                                 </div>
                             </div>
                             <div class="card-body pt-0 p-3 text-start">
-                                <label for="formFile" class="form-label"><h5>Gambar Profile:</h5></label>
+                                <label for="formFile" class="form-label"><h5>Gambar Profile</h5></label>
                                 <input class="form-control" type="file" id="formFile">
                             </div>
                             <div class="card-body pt-0 p-3 my-2 text-end">

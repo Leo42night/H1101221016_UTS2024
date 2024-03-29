@@ -27,49 +27,40 @@
                 </div>
                 <h1 class="text-center mb-0">Form Pendikan</h1>
               </div>
-              <form>
 
-              <form action="/submit_education" method="post">
-        <label for="employee_id">ID Pegawai:</label>
-        <input type="text" id="employee_id" name="employee_id" required><br><br>
-        
-        <label for="education_level">Tingkat Pendidikan:</label>
-        <select id="education_level" name="education_level">
-            <option value="SMA">SMA</option>
-            <option value="Sarjana">Sarjana</option>
-            <option value="Magister">Magister</option>
-            <option value="Doktor">Doktor</option>
-            <!-- Tambahkan opsi lain sesuai kebutuhan -->
-        </select><br><br>
-        
-        <label for="school_name">Nama Sekolah/Universitas:</label>
-        <input type="text" id="school_name" name="school_name" required><br><br>
-        
-        <label for="major">Jurusan:</label>
-        <input type="text" id="major" name="major" required><br><br>
-        
-        <label for="graduation_year">Tahun Lulus:</label>
-        <input type="number" id="graduation_year" name="graduation_year" min="1900" max="2099" required><br><br>
-        
-        <input type="submit" value="Submit">
-    </form>
-
+              <form action="/pendidikan" method="post">
+                <div class="row">
+                  <div class="col-md-5">
+                    <label for="employee_id" class="form-label">ID Pegawai</label>
+                    <input type="text" id="employee_id" class="form-control" name="employee_id" required><br><br>
+                  </div>
+                  <div class="col-md-4">
+                    <label for="education_level" class="form-label">Tingkat Pendidikan</label>
+                    <select id="education_level" class="form-control" name="education_level">
+                      <option value="SMA">SMA</option>
+                      <option value="Sarjana">Sarjana</option>
+                      <option value="Magister">Magister</option>
+                      <option value="Doktor">Doktor</option>
+                      <!-- Tambahkan opsi lain sesuai kebutuhan -->
+                    </select><br><br>
+                  </div>
+                  <div class="col-md-3">
+                    <label for="graduation_year" class="form-label">Tahun Lulus</label>
+                    <input type="number" class="form-control" id="graduation_year" name="graduation_year" min="1900" max="2099" required><br><br>
+                  </div>
+                </div>
                 <div class="row">
                   <div class="col-md-6">
-                    <div class="mb-3">
-                      <label for="jabatanInput" class="form-label">Nama Jabatan</label>
-                      <input type="text" class="form-control" id="jabatanInput" placeholder="Masukkan nama jabatan">
-                    </div>
+                    <label for="school_name" class="form-label">Nama Sekolah/Universitas</label>
+                    <input type="text" id="school_name" class="form-control" name="school_name" required><br><br>
                   </div>
                   <div class="col-md-6">
-                    <div class="mb-3">
-                      <label for="gajiInput" class="form-label">Gaji</label>
-                      <input type="number" class="form-control" id="gajiInput" placeholder="Masukkan gaji">
-                    </div>
+                    <label for="major" class="form-label">Jurusan</label>
+                    <input type="text" class="form-control" id="major" name="major" required><br><br>
                   </div>
                 </div>
                 <div class="text-end">
-                  <button type="submit" class="btn btn-primary"><i class="fas fa-check"></i>&nbsp;&nbsp;Simpan</button>
+                <button type="submit" class="btn btn-primary"><i class="fas fa-check"></i>&nbsp;&nbsp;Simpan</button>
                 </div>
               </form>
             </div>
